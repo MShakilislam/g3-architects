@@ -1,0 +1,9 @@
+
+@media all and (max-width:576px){
+    .navbar, .header-link{
+        flex-direction: column;
+    }
+    .banner-heading h2{
+        font-size: 3rem;
+    }
+}
