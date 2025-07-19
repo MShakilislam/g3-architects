@@ -90,10 +90,12 @@ nav{
 .banner-heading h2{
     font-size: 4rem;
     font-weight: bold;
+    padding-top: 50px;
 }
 .banner-heading p{
     font-size: 16px;
     padding: 10px 0;
+    padding: 15px 0;
 }
 .banner-img img{
     width: 100%;
@@ -182,7 +184,7 @@ nav{
 }
 
     /* ********************************************** */
-  /* **************same facts area style 3********* */
+  /* **************same facts area style 4********* */
 /* ********************************************** */
 .some-facts{
     overflow: hidden;
@@ -218,4 +220,42 @@ nav{
     color: #727272;
     font-size: 20px;
     font-weight: 600;
+}
+
+
+    /* ********************************************** */
+  /* ****************sponsore area style 5********* */
+/* ********************************************** */
+.sponser-heading{
+    text-align: center;
+}
+.sponser-heading h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.sponser-heading p{
+    font-size: 16px;
+    padding: 25px 0;
+}
+.sponsore-icone{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.sponsore-icone img{
+    filter: grayscale(100%);
+}
+.single-sponsore{
+    margin: 20px;
+}
+
+/* footer area css  */
+footer{
+    background-color: #FFF4E7;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    font-size: 20px;
 }
