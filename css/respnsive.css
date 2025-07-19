@@ -12,6 +12,17 @@
         bottom: 0px;
         position: inherit;
     }
+    /* some fact area  */
+    .some-facts h2 {
+        padding-top: 111px;
+        padding-left: 30px;
+    }
+    .some-facts p{
+        padding-left: 30px;
+    }
+    .project-prich {
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 @media all and (max-width:767px){
@@ -49,5 +60,9 @@
     }
     .Year-buttion {
         font-size: 18px;
+    }
+    /* some facts  */
+    .project-prich {
+        grid-template-columns: repeat(1,1fr);
     }
 }
