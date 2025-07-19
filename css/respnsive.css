@@ -1,5 +1,18 @@
 
-
+@media all and (max-width:990px){
+    .fatcher-area{
+        flex-direction: column;
+    }
+    /* fature area  */
+    .enjoy{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .enjoy-right button {
+        left: 0px;
+        bottom: 0px;
+        position: inherit;
+    }
+}
 
 @media all and (max-width:767px){
     .fatcher-area{
@@ -12,6 +25,11 @@
         width: 100%;
         height: auto;
     }
+    /* Features */
+    .enjoy{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 
@@ -25,5 +43,11 @@
     /* featcher area  */
     .fatcher-left{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .experians {
+        font-size: 3rem;
+    }
+    .Year-buttion {
+        font-size: 18px;
     }
 }
